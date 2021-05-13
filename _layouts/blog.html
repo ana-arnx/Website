@@ -7,7 +7,7 @@ layout: compress
 
 {% include head.html %}
 
-<body>
+<body class="has-background-grey-darker">
     {% include navbar.html %}
 
     <section class="hero is-fullheight" id="blog">
@@ -19,7 +19,9 @@ layout: compress
         <div id="results-container"></div>
         <!--Blog Cards Section-->
         {% for post in site.posts %}
+            {% if post.categories[0] == "events" %}
             {% include blog-card.html %}
+            {% endif %}
         {% endfor %}
         </div>
     </section>

@@ -1,13 +1,10 @@
 ---
-title: How to Install and use WhatATheme?
+title: Anger
 layout: post
-post-image: https://raw.githubusercontent.com/thedevslot/WhatATheme/master/assets/images/How%20to%20install%20and%20use%20WhatATheme.png?token=AHMQUEPHRKQFL5FS624RDJ26Z64HK
+post-image: /assets/images/SamplePost.png
 description: This post will guide you to install WhatATheme on your Jekyll site, follow
   the easy steps to set up WhatATheme.
 tags:
-- how to
-- setup
-- theme
 ---
 
 # What is WhatATheme?
