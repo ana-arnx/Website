@@ -2,7 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: 'https://mostlywizards.github.io/Website/'
+url: 'https://mostlywizards.github.io/'
+baseurl: 'Website/'
+
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
