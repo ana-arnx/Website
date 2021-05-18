@@ -1,5 +1,7 @@
 <section class="hero has-text-centered has-background-grey" id="contact">
     <div class="hero-body">
+        {% include newsletter.html %}
+
         <div class="container">
             {% unless site.email == %}
             <a id="contact-button" href="mailto:{{site.email}}"
